@@ -1,10 +1,10 @@
 # Установка и Запуск
-
-# 1. Клонирование
-git clone <ссылка_на_ваш_репозиторий>
+```py
+1. Клонирование
+git clone https://github.com/Chaberis/langgraph_gemini_time_bot.git
 cd langgraph_gemini_time_bot
 
-# 2. Настройка окружения и зависимостей
+2. Настройка окружения и зависимостей
 python -m venv .venv
 source .venv/bin/activate  # Linux/macOS
 # .venv\Scripts\activate    # Windows
@@ -18,3 +18,4 @@ pip install -r requirements.txt
 
 # 4. Запуск LangGraph Playground
 langgraph dev
+```
